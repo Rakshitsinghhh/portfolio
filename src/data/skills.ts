@@ -15,9 +15,19 @@ const skills: ISkillListItem[] = [
         icon: "/skills/typescript.svg",
       },
       {
-        title: "Dart",
+        title: "C",
         level: SkillLevel.Expert,
-        icon: "/skills/dart.svg",
+        icon: "/skills/c.png",
+      },
+      {
+        title: "C++",
+        level: SkillLevel.Expert,
+        icon: "/skills/cpp.png",
+      },
+      {
+        title: "Python",
+        level: SkillLevel.Expert,
+        icon: "/skills/python.png",
       },
     ],
   },
@@ -43,16 +53,6 @@ const skills: ISkillListItem[] = [
         title: "CSS",
         level: SkillLevel.Intermediate,
         icon: "/skills/css.svg",
-      },
-      {
-        title: "SASS",
-        level: SkillLevel.Intermediate,
-        icon: "/skills/sass.svg",
-      },
-      {
-        title: "Redux Toolkit",
-        level: SkillLevel.Expert,
-        icon: "/skills/redux.svg",
       },
     ],
   },
@@ -85,14 +85,14 @@ const skills: ISkillListItem[] = [
     title: "Mobile App Development",
     items: [
       {
-        title: "Flutter",
+        title: "Java",
         level: SkillLevel.Expert,
-        icon: "/skills/flutter.svg",
+        icon: "/skills/java.png",
       },
       {
-        title: "GetX",
+        title: "Kotlin",
         level: SkillLevel.Expert,
-        icon: "/skills/getx.png",
+        icon: "/skills/Kotlin.png",
       },
     ],
   },
@@ -173,6 +173,21 @@ const skills: ISkillListItem[] = [
         title: "Analytical Skills",
         level: SkillLevel.Expert,
         icon: "/images/analytical-skills.png",
+      },
+    ],
+  },
+  {
+    title: "WEB3",
+    items: [
+      {
+        title: "Solidity",
+        level: SkillLevel.Expert,
+        icon: "/skills/solidity.png",
+      },
+      {
+        title: "Rust",
+        level: SkillLevel.Expert,
+        icon: "/skills/rust.png",
       },
     ],
   },

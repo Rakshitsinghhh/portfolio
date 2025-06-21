@@ -1,120 +1,114 @@
 import { IProjectItem, ProjectType, RepoType } from "@/types";
 
 const projects: IProjectItem[] = [
-  {
-    id: "social-media-app-flutter",
-    title: "Social Media App",
+    {
+    id: "potter-xyz",
+    title: "Potter-XYZ",
     description:
-      "A social media mobile application developed using Flutter, GetX, Firebase Notifications and Hive.",
-    icon: "/skills/flutter.svg",
+      "A decentralized, real-time betting game built on Solana. Each bet resets a countdown timer, and the last bettor wins the pot. Integrated with Jupiter for token swaps, Solana wallet adapter, and DAO-ready logic.",
+    icon: "/skills/pot.png",
     repoType: RepoType.Public,
     projectType: ProjectType.Personal,
-    githubUrl: "https://github.com/nixrajput/social-media-app-flutter",
-    url: "https://github.com/nixrajput/social-media-app-flutter/releases",
-    tags: ["Flutter", "Dart", "GetX", "Hive"],
+    githubUrl: "https://github.com/rakshitsinghhh/potter-xyz",
+    url: "",
+    tags: ["Solana", "Rust", "Anchor", "Web3", "DeFi", "GameFi"]
   },
   {
-    id: "e-commerce-app-mern",
-    title: "E-commerce App",
+    id: "Wallation",
+    title: "WALLATION",
     description:
-      "An e-commerce web application developed using React.js, Material UI, Redux, and Stripe.",
+      "A secure and user-friendly Web3 crypto wallet that supports seed phrase generation, real-time balance display, and fund transfers. Built with robust encryption and privacy mechanisms.",
+    icon: "/skills/web3.png",
+    repoType: RepoType.Public,
+    projectType: ProjectType.Personal,
+    githubUrl: "https://github.com/rakshitsinghhh/WALLATION",
+    url: "",
+    tags: ["Web3", "JavaScript", "react","typescript"]
+  },
+  {
+    id: "chainport-wallet",
+    title: "ChainPort",
+    description:
+      "A lightweight wallet adapter that improves transaction security. Fetch balances, sign messages, and send funds via trustless, Public-keyless communication.",
+    icon: "/skills/solana.png",
+    repoType: RepoType.Public,
+    projectType: ProjectType.Personal,
+    githubUrl: "https://github.com/rakshitsinghhh/chainport",
+    url: "",
+    tags: ["Web3", "JavaScript", "react","typescript"]
+
+  },
+  {
+    id: "upi-sms-tracker",
+    title: "FINTRACK",
+    description:
+      "An Android app that reads and filters SMS for UPI/bank transactions using Kotlin. Supports SBI, GPay, PhonePe, Paytm, and more.",
+    icon: "/skills/kotlin.svg",
+    repoType: RepoType.Public,
+    projectType: ProjectType.Personal,
+    githubUrl: "https://github.com/rakshitsinghhh/PersonalFinanceTracker",
+    url: "",
+    tags: ["Android", "Kotlin", "UPI", "SMS", "Banking"]
+  },
+  {
+    id: "medi-locker",
+    title: "Medi Locker",
+    description:
+      "Secure platform to store, manage, and access medical records. Built using HTML, CSS, JS, Node.js, Express.js, and MySQL. Top 10 at JECRC Hackathon (250+ teams).",
+    icon: "/skills/nodejs.svg",
+    repoType: RepoType.Public,
+    projectType: ProjectType.Team,
+    githubUrl: "https://github.com/rakshitsinghhh/medilocker",
+    url: "",
+    tags: ["Node.js", "Express", "MySQL", "HTML", "CSS", "JavaScript"]
+  },
+  {
+    id: "websocket-chat-app",
+    title: "WebSocket",
+    description:
+      "A real-time chat app using Node.js and WebSocket on the backend, and React with TypeScript on the frontend (Vite).",
     icon: "/skills/react.svg",
     repoType: RepoType.Public,
     projectType: ProjectType.Personal,
-    githubUrl: "https://github.com/nixrajput/ecommerce-web-reactjs",
-    url: "https://nixlab-shop.vercel.app",
-    tags: ["React.js", "Redux", "Material UI", "Stripe"],
+    githubUrl: "https://github.com/rakshitsinghhh/websockets",
+    url: "",
+    tags: ["React", "Node.js", "WebSocket", "TypeScript"]
   },
   {
-    id: "video-calling-app-flutter",
-    title: "Video Calling App",
+    id: "spl-token-creator",
+    title: "SPL Token Creator",
     description:
-      "A video calling mobile application developed using Flutter and Agora SDK that allows users to call each other face to face.",
-    icon: "/skills/flutter.svg",
+      "A no-code dApp built with React to create custom SPL tokens on the Solana blockchain with just a few clicks.",
+    icon: "/skills/solana.png",
     repoType: RepoType.Public,
     projectType: ProjectType.Personal,
-    githubUrl: "https://github.com/nixrajput/video-calling-app-flutter",
-    url: "https://github.com/nixrajput/video-calling-app-flutter/releases",
-    tags: ["Flutter", "Dart", "GetX", "Agora SDK"],
+    githubUrl: "https://github.com/rakshitsinghhh/solanalaunchpad",
+    url: "",
+    tags: ["Solana", "React", "Web3", "SPL", "dApp"]
   },
   {
-    id: "social-media-api-nodejs",
-    title: "Social Media API",
+    id: "ethwallation",
+    title: "Ethwallation",
     description:
-      "A RESTful API developed using Node.js, Express.js, and MongoDB to integrate backend and frontend with ease.",
-    icon: "/skills/nestjs.svg",
+      "A secure Ethereum wallet built using Python and MySQL. Includes wallet generation, transaction signing, and balance checks.",
+    icon: "/skills/python.svg",
     repoType: RepoType.Public,
     projectType: ProjectType.Personal,
-    githubUrl: "https://github.com/nixrajput/social-media-api-nodejs",
-    tags: ["Node.js", "Express.js", "MongoDB", "WebSocket"],
+    githubUrl: "https://github.com/rakshitsinghhh/ethwallation",
+    url: "",
+    tags: ["solidity", "Web3" , "react" ,"TypeScript" , "foundry" , "forge"]
   },
   {
-    id: "grocery-list-maker-app-flutter",
-    title: "Grocery List Maker App",
+    id: "restaurant-management",
+    title: "Restaurant Management System",
     description:
-      "A grocery list maker mobile application developed using Flutter, BloC, Hive DB, and PDF.",
-    icon: "/skills/flutter.svg",
+      "A CLI-based restaurant order and billing system developed in Python using MySQL for data storage.",
+    icon: "/skills/python.svg",
     repoType: RepoType.Public,
     projectType: ProjectType.Personal,
-    githubUrl: "https://github.com/nixrajput/grocery-list-maker-flutter",
-    url: "https://github.com/nixrajput/grocery-list-maker-flutter/releases/latest",
-    tags: ["Flutter", "Dart", "BLoC", "PDF", "Hive"],
-  },
-  {
-    id: "e-commerce-api-nodejs",
-    title: "E-commerce API",
-    description:
-      "A RESTful API developed using Node.js, Express.js, MongoDB, and Stripe to integrate e-commerce backend.",
-    icon: "/skills/nodejs.svg",
-    repoType: RepoType.Public,
-    projectType: ProjectType.Personal,
-    githubUrl: "https://github.com/nixrajput/ecommerce-api-nodejs",
-    tags: ["Node.js", "Express.js", "MongoDB", "Stripe"],
-  },
-  {
-    id: "flutter-carousel-widget-package",
-    title: "Flutter Carousel Widget Package",
-    description:
-      "A customizable carousel widget for Flutter, offering features such as infinite scrolling, auto-scrolling, custom child widgets, pre-built indicators, expandable child widgets, auto-sized child support, and enlarged center page.",
-    icon: "/skills/flutter.svg",
-    repoType: RepoType.Public,
-    projectType: ProjectType.Personal,
-    githubUrl: "https://github.com/nixrajput/flutter-carousel-widget-package",
-    tags: ["Flutter", "Dart", "Carousel"],
-  },
-  {
-    id: "get-time-ago-package",
-    title: "GetTimeAgo Package",
-    description:
-      "A Dart package that converts and formats DateTime objects into human-readable 'time ago' strings, such as '20 seconds ago', 'a minute ago', or '7 hours ago'.",
-    icon: "/skills/dart.svg",
-    repoType: RepoType.Public,
-    projectType: ProjectType.Personal,
-    githubUrl: "https://github.com/nixrajput/gettimeago",
-    tags: ["Dart", "DateTime", "Formatting"],
-  },
-  {
-    id: "portfolio-website",
-    title: "Portfolio Website",
-    description:
-      "This repository contains the source code for a portfolio website built using Next.js and Sass.",
-    icon: "/skills/nextjs.png",
-    repoType: RepoType.Public,
-    projectType: ProjectType.Personal,
-    githubUrl: "https://github.com/nixrajput/portfolio-website",
-    url: "https://nixrajput.dev",
-    tags: ["Next.js", "Sass", "Web Development"],
-  },
-  {
-    id: "bus-reservation-system-management",
-    title: "Bus Reservation System Management",
-    description:
-      "This repository contains the Bus Reservation System Management project developed using Object Oriented Programming (OOP) and File Handling concepts in C++.",
-    icon: "/skills/cpp.png",
-    repoType: RepoType.Public,
-    projectType: ProjectType.Personal,
-    githubUrl: "https://github.com/nixrajput/bus-reservation-system",
-    tags: ["C++", "OOP", "File Handling"],
-  },
+    githubUrl: "https://github.com/rakshitsinghhh/restaurantmanagment",
+    url: "",
+    tags: ["Python", "MySQL", "CLI"]
+  }
 ];
 export default projects;

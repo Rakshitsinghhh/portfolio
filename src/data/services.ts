@@ -1,20 +1,19 @@
 import { IServiceItem } from "@/types";
 
 const services: IServiceItem[] = [
+
   {
     id: 1,
-    title: "Mobile App Development",
+    title: "Web3 Development",
     icons: [
-      "/skills/socket-io.png",
-      "/skills/dart.svg",
-      "/skills/flutter.svg",
-      "/skills/getx.png",
-      "/skills/firebase.svg",
+      "/skills/solidity.png",
+      "/skills/ethereum.png",
+      "/skills/rust.png",
     ],
     shortDescription:
-      "I create engaging mobile applications for your audience.",
+      "I build secure smart contracts and scalable dApps on Ethereum and Solana.",
     description:
-      "I create captivating mobile apps from concept to deployment for iOS and Android. Using cutting-edge technologies, I ensure seamless performance, intuitive interfaces, and robust functionality that align with your business goals. Enjoy a flawless user experience and outstanding results.",
+      "With deep expertise in Solidity, Rust, and decentralized architecture, I develop secure smart contracts and Web3 applications on Ethereum and Solana. From token standards to DeFi protocols, I focus on performance, security, and seamless user interaction. Whether it's building your next dApp or auditing contracts, I bring innovation to the decentralized future."
   },
   {
     id: 2,
@@ -44,20 +43,21 @@ const services: IServiceItem[] = [
     description:
       "I enhance digital applications with robust, scalable backend infrastructures. I develop efficient database structures, APIs, and configure servers for optimal performance, security, and scalability, ensuring your applications handle high traffic and complex data management seamlessly. Rely on strong backend solutions.",
   },
+
   {
     id: 4,
-    title: "Product Strategy",
+    title: "Mobile App Development",
     icons: [
-      "/skills/git.svg",
-      "/images/collaboration.png",
-      "/images/logical-thinking.png",
-      "/images/analytical-skills.png",
-      "/skills/ubuntu.png",
+      "/skills/socket-io.png",
+      "/skills/dart.svg",
+      "/skills/flutter.svg",
+      "/skills/getx.png",
+      "/skills/firebase.svg",
     ],
     shortDescription:
-      "I define goals, target audiences, and roadmap for success.",
+      "I create engaging mobile applications for your audience.",
     description:
-      "I collaborate to define clear goals, target audiences, and a success roadmap. My expertise in product ideation and market analysis ensures your product meets user needs and aligns with your business strategy for long-term growth and full potential realization. Drive your product's success with strategic planning.",
+      "I create captivating mobile apps from concept to deployment for iOS and Android. Using cutting-edge technologies, I ensure seamless performance, intuitive interfaces, and robust functionality that align with your business goals. Enjoy a flawless user experience and outstanding results.",
   },
   {
     id: 5,

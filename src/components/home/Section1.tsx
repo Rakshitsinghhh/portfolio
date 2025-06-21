@@ -21,12 +21,12 @@ const HomeSection1 = ({ id }: Readonly<{ id: string }>) => {
               Hi there, I am
             </p>
             <FlipWords
-              words={["Nikhil Rajput.", "@nixrajput."]}
+              words={["Rakshit  Singh .", "@Rakshitsinghhh ."]}
               className="text-2xl/normal sm:text-3xl/normal md:text-5xl/normal lg:text-6xl/normal xl:text-7xl/normal dark:text-[var(--primaryColor)] text-[var(--primaryColor)] font-bold text-center"
             />
           </div>
           <p className="text-sm/normal md:text-base/normal dark:text-[var(--textColorLight)] text-[var(--textColorLight)]">
-            Full Stack Developer 💻 SDE 🛠️ Open Source 🌍
+            Full Stack Developer 💻 WEB3 🔗 Open Source 🌍
           </p>
 
           <div className="gap-4 mt-12 lg:mt-16 flex flex-col md:flex-row">

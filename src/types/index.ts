@@ -35,6 +35,7 @@ export enum ProjectType {
   Personal,
   JobWork,
   Freelance,
+  Team
 }
 
 export interface IProjectItem {
