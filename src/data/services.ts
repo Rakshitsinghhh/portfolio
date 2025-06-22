@@ -6,9 +6,12 @@ const services: IServiceItem[] = [
     id: 1,
     title: "Web3 Development",
     icons: [
-      "/skills/solidity.png",
       "/skills/ethereum.png",
       "/skills/rust.png",
+      "/skills/solidity.png",
+      "/skills/javascript.svg",
+      "/skills/typescript.svg"
+
     ],
     shortDescription:
       "I build secure smart contracts and scalable dApps on Ethereum and Solana.",
@@ -19,11 +22,12 @@ const services: IServiceItem[] = [
     id: 2,
     title: "Web Development",
     icons: [
-      "/skills/redux.svg",
       "/skills/react.svg",
-      "/skills/nextjs.png",
       "/skills/html.svg",
+      "/skills/nextjs.png",
       "/skills/css.svg",
+      "/skills/typescript.svg"
+
     ],
     shortDescription: "I build visually stunning and user-friendly websites.",
     description:
@@ -48,11 +52,11 @@ const services: IServiceItem[] = [
     id: 4,
     title: "Mobile App Development",
     icons: [
-      "/skills/socket-io.png",
-      "/skills/dart.svg",
-      "/skills/flutter.svg",
-      "/skills/getx.png",
+      "/skills/java.png",
+      "/skills/Kotlin.png",
       "/skills/firebase.svg",
+      "/skills/sqlite.png",
+      "/skills/cpp.png",
     ],
     shortDescription:
       "I create engaging mobile applications for your audience.",
@@ -66,8 +70,7 @@ const services: IServiceItem[] = [
       "/skills/docker.svg",
       "/skills/kubernetes.svg",
       "/skills/aws.svg",
-      "/skills/jenkins.svg",
-      "/skills/terraform.svg",
+      "/skills/gcc.png",
     ],
     shortDescription: "I streamline development and operations processes.",
     description:
