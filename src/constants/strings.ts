@@ -21,7 +21,7 @@ class Strings {
 
   static email = "Email";
   static primaryEmailLink = "mailto:rakshitsinghhhhh@gmail.com";
-  static primaryEmail = "rakshitsinghhhhh@gmail.com";
+  static primaryEmail = "";
 
   static buyMeACoffee = "BuyMeACoffee";
   static buyMeACoffeeLink = "https://buymeacoffee.com/rakshitsinghhh";
