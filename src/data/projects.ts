@@ -18,7 +18,7 @@ const projects: IProjectItem[] = [
     title: "WALLATION",
     description:
       "A secure and user-friendly Web3 crypto wallet that supports seed phrase generation, real-time balance display, and fund transfers. Built with robust encryption and privacy mechanisms.",
-    icon: "/skills/web3.png",
+    icon: "/skills/euro.png",
     repoType: RepoType.Public,
     projectType: ProjectType.Personal,
     githubUrl: "https://github.com/rakshitsinghhh/WALLATION",
@@ -30,7 +30,7 @@ const projects: IProjectItem[] = [
     title: "ChainPort",
     description:
       "A lightweight wallet adapter that improves transaction security. Fetch balances, sign messages, and send funds via trustless, Public-keyless communication.",
-    icon: "/skills/solana.png",
+    icon: "/skills/chains.png",
     repoType: RepoType.Public,
     projectType: ProjectType.Personal,
     githubUrl: "https://github.com/rakshitsinghhh/chainport",
@@ -43,7 +43,7 @@ const projects: IProjectItem[] = [
     title: "FINTRACK",
     description:
       "An Android app that reads and filters SMS for UPI/bank transactions using Kotlin. Supports SBI, GPay, PhonePe, Paytm, and more.",
-    icon: "/skills/kotlin.svg",
+    icon: "/skills/speech_balloon.png",
     repoType: RepoType.Public,
     projectType: ProjectType.Personal,
     githubUrl: "https://github.com/rakshitsinghhh/PersonalFinanceTracker",
@@ -55,7 +55,7 @@ const projects: IProjectItem[] = [
     title: "Medi Locker",
     description:
       "Secure platform to store, manage, and access medical records. Built using HTML, CSS, JS, Node.js, Express.js, and MySQL. Top 10 at JECRC Hackathon (250+ teams).",
-    icon: "/skills/nodejs.svg",
+    icon: "/skills/pill.png",
     repoType: RepoType.Public,
     projectType: ProjectType.Team,
     githubUrl: "https://github.com/rakshitsinghhh/medilocker",
@@ -79,7 +79,7 @@ const projects: IProjectItem[] = [
     title: "SPL Token Creator",
     description:
       "A no-code dApp built with React to create custom SPL tokens on the Solana blockchain with just a few clicks.",
-    icon: "/skills/solana.png",
+    icon: "/skills/rocket.png",
     repoType: RepoType.Public,
     projectType: ProjectType.Personal,
     githubUrl: "https://github.com/rakshitsinghhh/solanalaunchpad",
@@ -91,7 +91,7 @@ const projects: IProjectItem[] = [
     title: "Ethwallation",
     description:
       "A secure Ethereum wallet built using Python and MySQL. Includes wallet generation, transaction signing, and balance checks.",
-    icon: "/skills/python.svg",
+    icon: "/skills/briefcase.png",
     repoType: RepoType.Public,
     projectType: ProjectType.Personal,
     githubUrl: "https://github.com/rakshitsinghhh/ethwallation",
@@ -103,7 +103,7 @@ const projects: IProjectItem[] = [
     title: "Restaurant Management System",
     description:
       "A CLI-based restaurant order and billing system developed in Python using MySQL for data storage.",
-    icon: "/skills/python.svg",
+    icon: "/skills/fries.png",
     repoType: RepoType.Public,
     projectType: ProjectType.Personal,
     githubUrl: "https://github.com/rakshitsinghhh/restaurantmanagment",
