@@ -2,6 +2,21 @@ import { ISkillListItem, SkillLevel } from "@/types";
 
 const skills: ISkillListItem[] = [
   {
+    title: "WEB3",
+    items: [
+      {
+        title: "Solidity",
+        level: SkillLevel.Expert,
+        icon: "/skills/solidity.png",
+      },
+      {
+        title: "Rust",
+        level: SkillLevel.Expert,
+        icon: "/skills/rust.png",
+      },
+    ],
+  },
+  {
     title: "Programming Languages",
     items: [
       {
@@ -111,8 +126,13 @@ const skills: ISkillListItem[] = [
       },
       {
         title: "MySQL",
-        level: SkillLevel.Beginner,
+        level: SkillLevel.Intermediate,
         icon: "/skills/mysql.svg",
+      },
+      {
+        title: "SqLite",
+        level: SkillLevel.Intermediate,
+        icon: "/skills/sqlite.png",
       },
     ],
   },
@@ -173,21 +193,6 @@ const skills: ISkillListItem[] = [
         title: "Analytical Skills",
         level: SkillLevel.Expert,
         icon: "/images/analytical-skills.png",
-      },
-    ],
-  },
-  {
-    title: "WEB3",
-    items: [
-      {
-        title: "Solidity",
-        level: SkillLevel.Expert,
-        icon: "/skills/solidity.png",
-      },
-      {
-        title: "Rust",
-        level: SkillLevel.Expert,
-        icon: "/skills/rust.png",
       },
     ],
   },
