@@ -1,19 +1,19 @@
 class Strings {
   static telegram = "Telegram";
   static telegramLink = "https://telegram.me/rakshitsinghhh";
-  static telegramUsername = "rakshitsinghhh";
+  static telegramUsername = "";
 
   static github = "GitHub";
   static githubLink = "https://www.github.com/rakshitsinghhh";
-  static githubUsername = "Rakshitsinghhh";
+  static githubUsername = "";
 
   static linkedIn = "LinkedIn";
   static linkedInLink = "https://www.linkedin.com/in/rakshit-singh-5b7533248/";
-  static linkedInUsername = "Rakshitsinghhh";
+  static linkedInUsername = "";
 
   static instagram = "Instagram";
   static instagramLink = "https://www.instagram.com/rakshitsinghhh";
-  static instagramUsername = "Rakshitsinghhh";
+  static instagramUsername = "";
 
   static twitter = "Twitter";
   static twitterLink = "https://www.twitter.com/jordan694945326";
