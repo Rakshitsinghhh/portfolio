@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-const paymentUrl = "";
+const paymentUrl = "https://razorpay.me/@rakshitsingh4954";
 
 function RazorPayButton() {
   return (
