@@ -10,7 +10,11 @@ const HomeSection7 = ({ id }: { id: string }) => {
       classNames="dark:bg-[var(--dialogColor)] bg-[var(--dialogColor)] dark:bg-dot-white/[0.15] bg-dot-white/[0.15] py-10"
     >
       <ConstrainedBox classNames="px-4">
-        <SectionTitle className="mb-4">Github Contributions</SectionTitle>
+        {/* Wrap SectionTitle in a div for margin control */}
+        <div className="mb-4">
+          <SectionTitle>GitHub Contributions</SectionTitle>
+        </div>
+        
         <Column classNames="w-full mt-6">
           <div className="w-full overflow-x-auto pb-2">
             <img
