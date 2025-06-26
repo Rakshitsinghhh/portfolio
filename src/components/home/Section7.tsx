@@ -11,9 +11,7 @@ const HomeSection7 = ({ id }: { id: string }) => {
     >
       <ConstrainedBox classNames="px-4">
         {/* Wrap SectionTitle in a div for margin control */}
-        <div className="mb-4">
-          <h1 className="text-xl md:text-3xl lg:text-4xl font-bold">leetcode Contributions</h1>
-        </div>
+          <SectionTitle>Leetcode Contributions</SectionTitle>
         
         <Column classNames="w-full mt-6">
           <div className="w-full overflow-x-auto pb-2">

@@ -12,10 +12,10 @@ const HomeSection8 = ({ id }: { id: string }) => {
       classNames="dark:bg-[var(--dialogColor)] bg-[var(--dialogColor)] min-h-screen items-center justify-center dark:bg-dot-white/[0.15] bg-dot-white/[0.15] items-center justify-center"
       id={id}
     >
-      <ConstrainedBox classNames="p-4 py-16">
+      <ConstrainedBox classNames="p-1 py-1">
         <SectionTitle>Get in Touch</SectionTitle>
 
-        <Column classNames="mt-16 w-full">
+        <Column classNames="mt-10 w-full">
           <GridBox classNames="sm:grid-cols-2 w-full mx-auto gap-4">
             {socialLinks.map((link, index) => {
               return (
