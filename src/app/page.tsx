@@ -20,9 +20,9 @@ const Home = () => {
 {/*       <HomeSection3 id="experiences" /> */}
       <HomeSection4 id="skills" />
       <HomeSection5 id="projects" />
-      <HomeSection7 id="contributions" />
-      <HomeSection8 id="competitive coding" />
-      <HomeSection6 id="contact" />
+      <HomeSection6 id="contributions" />
+      <HomeSection7 id="competitive coding" />
+      <HomeSection8 id="contact" />
 
     </PageBox>
   );

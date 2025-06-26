@@ -1,34 +1,43 @@
 import ResponsiveBox from "@/components/core/ResponsiveBox";
 import ConstrainedBox from "@/components/core/constrained-box";
+import GridBox from "@/components/core/GridBox";
 import Column from "@/components/core/Column";
 import SectionTitle from "@/components/common/SectionTitle";
+import SocialButton from "./ui/SocialButton";
+import socialLinks from "@/data/socialLinks";
 
-const HomeSection7 = ({ id }: { id: string }) => {
+const HomeSection8 = ({ id }: { id: string }) => {
   return (
     <ResponsiveBox
+      classNames="dark:bg-[var(--dialogColor)] bg-[var(--dialogColor)] min-h-screen items-center justify-center dark:bg-dot-white/[0.15] bg-dot-white/[0.15] items-center justify-center"
       id={id}
-      classNames="dark:bg-[var(--dialogColor)] bg-[var(--dialogColor)] dark:bg-dot-white/[0.15] bg-dot-white/[0.15] py-10"
     >
-      <ConstrainedBox classNames="px-4">
-        {/* Wrap SectionTitle in a div for margin control */}
-        <div className="mb-4">
-          <h1 className="text-xl md:text-3xl lg:text-4xl font-bold">leetcode Contributions</h1>
-        </div>
-        
-        <Column classNames="w-full mt-6">
-          <div className="w-full overflow-x-auto pb-2">
-            <img
-              src="https://camo.githubusercontent.com/6bdaa5b1a9ed7f39246bfc70aa3b8f3c10214715968fd7bfe0c5e344d9d80862/68747470733a2f2f6c656574636172642e6a61636f626c696e2e636f6f6c2f52616b7368697473696e676868683f6578743d686561746d6170"
-              alt="Rakshit's leetcode contributions"
-              className="mx-auto"
-              style={{ minWidth: "680px" }}
-              loading="lazy"
-            />
-          </div>
+      <ConstrainedBox classNames="p-4 py-16">
+        <SectionTitle>Get in Touch</SectionTitle>
+
+        <Column classNames="mt-16 w-full">
+          <GridBox classNames="sm:grid-cols-2 w-full mx-auto gap-4">
+            {socialLinks.map((link, index) => {
+              return (
+                <SocialButton
+                  key={`social-link-${index}`}
+                  text={link.text}
+                  icon={link.icon}
+                  url={link.url}
+                />
+              );
+            })}
+          </GridBox>
+
+          <p className="text-center mx-auto mt-16 text-2xl/6 font-semibold">
+            I&apos;m{" "}
+            <span className="text-[var(--primaryColor)]">available</span> for
+            freelancing.
+          </p>
         </Column>
       </ConstrainedBox>
     </ResponsiveBox>
   );
 };
 
-export default HomeSection7;
+export default HomeSection8;
